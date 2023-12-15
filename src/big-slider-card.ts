@@ -291,7 +291,7 @@ export class BigSliderCard extends LitElement {
     }
 
     if (this._status != 'on') {
-      _value = 0;
+      _value = 0; 
     } else {
       switch (attr) {
         case 'brightness':
